@@ -26,6 +26,10 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname + '/public/html/index.html'));
 });
 
+app.get('/learnMoreHis', (req, res) => {
+    res.sendFile(path.join(__dirname + '/public/html/learnMoreHis.html'));
+});
+
 app.get('/learnMoreEvents', (req, res) => {
     res.sendFile(path.join(__dirname + '/public/html/learnMoreEvents.html'));
 });
