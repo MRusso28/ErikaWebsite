@@ -1,4 +1,4 @@
-<<<<<<< HEAD:css/main.css
+
 .card {
   width: 100%;
   max-height: 100%;
@@ -315,8 +315,24 @@ body {
   background-size: cover;
 }
 
-.his {
-  background-image: url("../images/noah.jpg");
+.beecher {
+  background-image: url("../images/beech.jpg");
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: darken;
+  background-position: center;
+  background-size: cover;
+}
+
+.Gillette {
+  background-image: url("../images/gillette.jpg");
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: darken;
+  background-position: center;
+  background-size: cover;
+}
+
+.slater {
+  background-image: url("../images/slate.jpg");
   background-color: rgba(0, 0, 0, 0.6);
   background-blend-mode: darken;
   background-position: center;
@@ -1122,4 +1138,3 @@ body {
   .stars-container {
     margin-bottom: 5px;
   }
->>>>>>> c67139150a5245c45e94644fd8a9953d818928ef:public/css/main.css
